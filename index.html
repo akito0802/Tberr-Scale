@@ -1,50 +1,24 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tber - スケール辞典</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Cメジャースケール</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
-  <!-- 背景用 -->
-  <div class="background"></div>
-
-  <!-- メインUI -->
-  <div class="main-container">
-    <h1>Tber スケール辞典</h1>
-
-    <div class="selector-box">
-      <select id="key-select">
-        <option>C</option>
-        <option>D</option>
-        <option>E</option>
-        <option>F</option>
-        <option>G</option>
-        <option>A</option>
-        <option>B</option>
-      </select>
-
-      <select id="scale-type">
-        <option>メジャー</option>
-        <option>マイナー</option>
-        <option>チャーチモード</option>
-      </select>
-
-      <select id="scale-name">
-        <option>Ionian</option>
-        <option>Dorian</option>
-        <option>Phrygian</option>
-        <option>Lydian</option>
-        <option>Mixolydian</option>
-        <option>Aeolian</option>
-        <option>Locrian</option>
-      </select>
-    </div>
-
-    <div class="fretboard">
-      <img src="assets/tber_template_C_major.png" alt="ギター指板" />
-    </div>
-  </div>
+  <img src="images/fretboard_c_major.png" alt="Cメジャースケール">
 </body>
 </html>
